@@ -4,6 +4,16 @@
   sort_order: 1
   min_confirm: 1
   max_confirm: 3
+- id: 300
+  key: ether
+  currency: eth
+  sort_order: 1
+  min_confirm: 1
+  max_confirm: 3
+- id: 500
+  key: litecoin
+  min_confirm: 1
+  max_confirm: 6
 - id: 400
   key: bank
   currency: cny
