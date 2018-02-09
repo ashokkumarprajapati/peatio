@@ -1,7 +1,5 @@
 header.text-center
   .container
-    a href='#' 
-      img src='#{image_path 'logo.png'}' width='336px'
     section
       - Rails.configuration.i18n.available_locales.each do |locale|
         h3 = t(:slogan, locale: locale)
